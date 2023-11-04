@@ -2,3 +2,4 @@ node_modules
 *.lua
 .DS_Store
 event/
+*.code-workspace
