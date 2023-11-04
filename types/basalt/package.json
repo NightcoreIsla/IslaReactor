@@ -1,0 +1,14 @@
+{
+    "name": "basalt-types",
+    "version": "1.7.0-alpha",
+    "types": "index.d.ts",
+    "license": "MIT",
+    "scripts": {
+        "dev": "tstl --watch"
+    },
+    "devDependencies": {
+        "lua-types": "^2.13.1",
+        "typescript": "^5.0.4",
+        "typescript-to-lua": "^1.15.1"
+    }
+}
