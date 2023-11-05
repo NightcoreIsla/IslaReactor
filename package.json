@@ -15,5 +15,8 @@
     "typescript": "^4.9.0"
   },
   "author": "Isla",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tstl-json-lua": "^0.0.0"
+  }
 }

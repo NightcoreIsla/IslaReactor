@@ -1,6 +1,6 @@
 node_modules
-*.lua
 .DS_Store
 event/
+dist/*
 *.code-workspace
 dist/config/*
