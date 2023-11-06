@@ -15,7 +15,7 @@ jobs:
     steps:
     - id: read
       run: |
-        echo "PACKAGE_JSON=$(jq -c . < tsconfig.json)" >> $TsJsonRaw
+        echo "PACKAGE_JSON=$(jq -c . < tsconfig.json)" >> $GITHUB_ENV
   build:
     runs-on: ubuntu-latest
     strategy:
@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        outputDir: ${{ fromJson(env.TsJsonRaw).version }}
+        outputDir: ${{ fromJson(env.PACKAGE_JSON).version }}
     steps:
       - uses: actions/upload-artifact@v3
         with:
