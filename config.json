@@ -1,0 +1,7 @@
+{
+    "CoolantLowPercent" : 50, 
+    "HeatedCoolantMaxPercent" : 50,
+    "WasteMaxPercent": 30, 
+    "DamageMaxPercent": 10, 
+    "TempertureLimit": 180
+}
