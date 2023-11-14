@@ -1,4 +1,6 @@
 # IslaReactor
-ComputerCraft(CC-Tweak) tstl control program of Mekanism fission reactors with simple GUI
+Minecraft ComputerCraft(CC-Tweak) control program of Mekanism fission reactors with simple GUI, writed on TSTL
+## config
 you can set the danger value in config.json
-tested in enigmatica 9 (minecraft version 1.19.2)
+## version
+tested in Enigmatica 9 (Minecraft version 1.19.2)
